@@ -34,16 +34,38 @@ Milestone 4: Creating the game class
 
 ## Installation
 
-# Provide step-by-step instructions on how to install or set up your project. Include any dependencies that need to be installed and how to install them.
+1. Clone the Repository
+git clone https://github.com/Samarpatel16/hangman/tree/main/hangman
+
+2. Navigate to Project Directory
+cd hangman
+
+3. Install dependancies
+pip install pandas (For example) 
 
 ## Usage
+Run the Game:
 
-# Explain how to use your project. This could include code examples, screenshots, or any other relevant information for users.
+python milestone_5.py
+Follow On-Screen Prompts:
+
+Enter a single alphabetical character when prompted to guess a letter.
+Continue guessing until you win or lose the game.
+Game Output:
+
+The game will display messages indicating whether your guess is correct, the word guessed so far, and the remaining lives.
+The game will end when you either correctly guess the word or run out of lives
 
 ## File Structure
 
-# Describe the structure of your project's files and directories. This section helps users understand where to find specific files or resources.
+The project files are organized as follows:
+
+milestone_5.py: The main script that combines the Hangman class and the play_game function.
+
+hangman.py: Contains the Hangman class with methods for initializing the game, checking guesses, and handling user input.
+
+README.md: Documentation for the project.
 
 ## License
 
-# Include information about the license your project uses. If you're not sure which license to choose, you can find guidance on [choosealicense.com](https://choosealicense.com/)
+
