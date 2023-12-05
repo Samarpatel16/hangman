@@ -18,7 +18,19 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
-Currently, I am on milestone 3. Where I have created the variables for the game and a check that that guessed characters are in the word.
+Currently, I have completed the following milestones that help to build this project:
+
+Milestone 1: Setting up the Environment 
+- This was the first step where I set up the Github repository
+
+Milestone 2: Creating the variables for the game
+- Using conditions and the users input. Once an answer is input there is a validation check
+
+Milestone 3: Check that that guessed characters are in the word
+- Checking that the guessed letter is actually inside of the word.
+
+Milestone 4: Creating the game class
+- Using OOP to develop the Hangman game
 
 ## Installation
 
