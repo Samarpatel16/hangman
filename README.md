@@ -90,3 +90,45 @@ README.md: Documentation for the project.
 
 
 This updated README includes brief descriptions of each method in the `Hangman` class, providing users with insights into the purpose of each method
+
+
+## Usage
+
+**Run the Game:**
+```bash
+python milestone_5.py
+Follow On-Screen Prompts:
+
+Enter a single alphabetical character when prompted to guess a letter.
+Continue guessing until you win or lose the game.
+Game Output:
+
+The game will display messages indicating whether your guess is correct, the word guessed so far, and the remaining lives.
+The game will end when you either correctly guess the word or run out of lives.
+
+## File Structure
+The project files are organized as follows:
+
+milestone_5.py: The main script that combines the Hangman class and the play_game function.
+
+hangman.py: Contains the Hangman class with methods for initializing the game, checking guesses, and handling user input. Each method is described below:
+
+__init__(self, word_list, num_lives=5)
+
+Initializes the Hangman game with a word list and optional number of lives.
+choose_random_word(self)
+
+Chooses a random word from the list and sets up the initial game state.
+check_guess(self, guess)
+
+Checks if the guessed letter is in the word and updates the game state accordingly.
+update_word_guessed(self, guess)
+
+Updates the word_guessed list based on the correct guess.
+ask_for_input(self)
+
+Asks the user for a valid letter input, handles input validation, and calls check_guess.
+is_valid_guess(self, guess)
+
+Checks if the guess is a valid input.
+README.md: Documentation for the project.
