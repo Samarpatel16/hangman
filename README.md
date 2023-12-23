@@ -68,7 +68,7 @@ Install Dependencies
 
 bash
 Copy code
-pip install pandas  # (For example)
+pip install python 3.12  # (For example)
 Usage
 Run the Game:
 
