@@ -6,9 +6,10 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage)
 - [File Structure](#file-structure)
-- [License](#license)
+- [Usage](#usage)
+  
+
 
 ## Description
 
@@ -66,23 +67,6 @@ cd hangman
 2. Install Dependencies
 pip install python 3.12  # (For example)
 
-Continue to the Usage section for more:
-
-
-## Usage
-
-**Run the Game:**
-```bash
-python milestone_5.py
-Follow On-Screen Prompts:
-
-Enter a single alphabetical character when prompted to guess a letter.
-Continue guessing until you win or lose the game.
-Game Output:
-
-The game will display messages indicating whether your guess is correct, the word guessed so far, and the remaining lives.
-The game will end when you either correctly guess the word or run out of lives.
-
 ## File Structure
 
 The project files are organized as follows:
@@ -109,3 +93,21 @@ Asks the user for a valid letter input, handles input validation, and calls chec
 is_valid_guess(self, guess)
 
 Checks if the guess is a valid input.
+
+
+## Usage
+
+**Run the Game:**
+```bash
+python milestone_5.py
+Follow On-Screen Prompts:
+
+Enter a single alphabetical character when prompted to guess a letter.
+Continue guessing until you win or lose the game.
+Game Output:
+
+The game will display messages indicating whether your guess is correct, the word guessed so far, and the remaining lives.
+The game will end when you either correctly guess the word or run out of lives.
+
+
+
