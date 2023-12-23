@@ -61,19 +61,13 @@ Milestone 5: Putting it all together
    git clone https://github.com/Samarpatel16/hangman/tree/main/hangman
 Navigate to Project Directory
 
-bash
-Copy code
 cd hangman
 Install Dependencies
 
-bash
-Copy code
 pip install python 3.12  # (For example)
 Usage
 Run the Game:
 
-bash
-Copy code
 python milestone_5.py
 Follow On-Screen Prompts:
 
