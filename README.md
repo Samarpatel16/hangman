@@ -71,28 +71,21 @@ pip install python 3.12  # (For example)
 
 The project files are organized as follows:
 
-milestone_5.py: The main script that combines the Hangman class and the play_game function.
+- **`milestone_5.py`**: The main script that combines the Hangman class and the play_game function.
 
-hangman.py: Contains the Hangman class with methods for initializing the game, checking guesses, and handling user input. Each method is described below:
+- **`hangman.py`**: Contains the Hangman class with methods for initializing the game, checking guesses, and handling user input. Each method is described below:
 
-__init__(self, word_list, num_lives=5)
+    - **`__init__(self, word_list, num_lives=5)`**: Initializes the Hangman game with a word list and optional number of lives.
 
-Initializes the Hangman game with a word list and optional number of lives.
-choose_random_word(self)
+    - **`choose_random_word(self)`**: Chooses a random word from the list and sets up the initial game state.
 
-Chooses a random word from the list and sets up the initial game state.
-check_guess(self, guess)
+    - **`check_guess(self, guess)`**: Checks if the guessed letter is in the word and updates the game state accordingly.
 
-Checks if the guessed letter is in the word and updates the game state accordingly.
-update_word_guessed(self, guess)
+    - **`update_word_guessed(self, guess)`**: Updates the `word_guessed` list based on the correct guess.
 
-Updates the word_guessed list based on the correct guess.
-ask_for_input(self)
+    - **`ask_for_input(self)`**: Asks the user for a valid letter input, handles input validation, and calls `check_guess`.
 
-Asks the user for a valid letter input, handles input validation, and calls check_guess.
-is_valid_guess(self, guess)
-
-Checks if the guess is a valid input.
+    - **`is_valid_guess(self, guess)`**: Checks if the guess is a valid input.
 
 
 ## Usage
