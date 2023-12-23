@@ -59,15 +59,20 @@ Milestone 5: Putting it all together
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Samarpatel16/hangman/tree/main/hangman
-Navigate to Project Directory
 
+1. Navigate to Project Directory
 cd hangman
-Install Dependencies
 
+2. Install Dependencies
 pip install python 3.12  # (For example)
-Usage
-Run the Game:
 
+Continue to the Usage section for more:
+
+
+## Usage
+
+**Run the Game:**
+```bash
 python milestone_5.py
 Follow On-Screen Prompts:
 
@@ -77,7 +82,9 @@ Game Output:
 
 The game will display messages indicating whether your guess is correct, the word guessed so far, and the remaining lives.
 The game will end when you either correctly guess the word or run out of lives.
-File Structure
+
+## File Structure
+
 The project files are organized as follows:
 
 milestone_5.py: The main script that combines the Hangman class and the play_game function.
@@ -102,32 +109,3 @@ Asks the user for a valid letter input, handles input validation, and calls chec
 is_valid_guess(self, guess)
 
 Checks if the guess is a valid input.
-README.md: Documentation for the project.
-
-
-This updated README includes brief descriptions of each method in the `Hangman` class, providing users with insights into the purpose of each method
-
-
-## Usage
-Run the Game:
-
-python milestone_5.py
-Follow On-Screen Prompts:
-
-Enter a single alphabetical character when prompted to guess a letter.
-Continue guessing until you win or lose the game.
-Game Output:
-
-The game will display messages indicating whether your guess is correct, the word guessed so far, and the remaining lives.
-The game will end when you either correctly guess the word or run out of lives
-
-## File Structure
-
-The project files are organized as follows:
-
-milestone_5.py: The main script that combines the Hangman class and the play_game function.
-
-hangman.py: Contains the Hangman class with methods for initializing the game, checking guesses, and handling user input.
-
-README.md: Documentation for the project.
-
