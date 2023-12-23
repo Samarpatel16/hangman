@@ -67,11 +67,6 @@ hangman.py: Contains the Hangman class with methods for initializing the game, c
 
 README.md: Documentation for the project.
 
-arduino
-Copy code
-
-This markdown file provides clear instructions for installation, usage, and an overview of the project structure.
-
 ## Usage
 Run the Game:
 
