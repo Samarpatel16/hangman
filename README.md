@@ -137,4 +137,3 @@ hangman.py: Contains the Hangman class with methods for initializing the game, c
 
 README.md: Documentation for the project.
 
-ChatGPT
