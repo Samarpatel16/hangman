@@ -1,9 +1,4 @@
 
-# TODO: REVIEW - this file does not run properly - it has repeated import statements, repeated classes and multiple `if __name__ == "__main__":` blocks
-# you cannot have this in a python file - there must only be one of each.
-
-
-
 import random
 
 class Hangman:
